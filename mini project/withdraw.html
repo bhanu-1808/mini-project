@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Withdraw</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="transaction-container">
+        <h1>Withdraw Money</h1>
+        <form id="withdrawForm">
+            <input type="number" id="withdrawAmount" placeholder="Enter Amount" required><br>
+            <button type="submit">Withdraw</button>
+        </form>
+    </div>
+
+    <!-- Link to the external JavaScript file (which includes Firestore logic) -->
+    <script type="module" src="withdraw.js"></script>
+</body>
+</html>

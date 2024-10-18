@@ -1,0 +1,19 @@
+<!-- qr.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM QR Code</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="qr-container">
+        <h1>Scan QR Code to Confirm</h1>
+        <!-- Generate a QR code that redirects to input page -->
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://yourwebsite.com/input" alt="QR Code" class="qr-image">
+        <p>Use your mobile device to scan the QR code and enter the required value.</p>
+        <a href="menu.html" class="menu-link">Return to Main Menu</a>
+    </div>
+</body>
+</html>
